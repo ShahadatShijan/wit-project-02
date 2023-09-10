@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Open+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #555;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: normal;
+  text-align: left;
+}
+
+.main-container {
+  max-width: 1920px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.main-container .banner {
+  background-image: url(../img/yoga-header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: auto;
+  color: #fff;
+  position: relative;
+}
+.main-container .banner .nav-bar {
+  padding: 26px 15px;
+  border-bottom: 1px solid #fff;
+  max-width: 940px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+.main-container .banner .nav-bar .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.main-container .banner .nav-bar .row .cal-md-4 {
+  position: relative;
+  width: 100%;
+  margin: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.main-container .banner .nav-bar .row .top-bar-left,
+.main-container .banner .nav-bar .row .top-bar-right {
+  padding: 24px 15px 0;
+  z-index: 3;
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+}
+.main-container .banner .nav-bar .row .top-bar-left i,
+.main-container .banner .nav-bar .row .top-bar-right i {
+  font-size: 1.2rem;
+  color: black;
+  background-color: white;
+  border-radius: 50%;
+  padding: 5px;
+}
+.main-container .banner .nav-bar .row .top-bar-left a,
+.main-container .banner .nav-bar .row .top-bar-right a {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.2rem;
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+}
+.main-container .banner .nav-bar .row .logo {
+  text-align: center;
+  padding: 5px 15px;
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+}
+.main-container .banner .nav-bar .row .top-bar-right {
+  text-align: right;
+}
+.main-container .banner .nav-bar hr {
+  background-color: #555;
+  border-bottom: none;
+}/*# sourceMappingURL=style.css.map */
