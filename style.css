@@ -55,7 +55,6 @@ body {
 .main-container .banner .nav-bar .row .top-bar-left,
 .main-container .banner .nav-bar .row .top-bar-right {
   padding: 24px 15px 0;
-  z-index: 3;
   flex: 0 0 33.333333%;
   max-width: 33.333333%;
 }
@@ -84,7 +83,41 @@ body {
 .main-container .banner .nav-bar .row .top-bar-right {
   text-align: right;
 }
-.main-container .banner .nav-bar hr {
-  background-color: #555;
-  border-bottom: none;
+.main-container .banner .hero-section {
+  width: 100%;
+  text-align: center;
+}
+.main-container .banner .hero-section .content-section .content-title {
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+  padding: 20px;
+}
+.main-container .banner .hero-section .content-section .content-title h1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  padding: 30px;
+}
+.main-container .banner .hero-section .content-section .content-title p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+.main-container .banner .hero-section .content-section .content-title button {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.6px;
+  font-weight: 700;
+  padding: 21px 32px 19px;
+  background-color: #fe86d4;
+  color: #fff;
+  border-radius: 3px;
+  text-transform: uppercase;
+  border: none;
+  margin-top: 30px;
+  margin-bottom: 4rem;
+}
+.main-container .banner .hero-section .content-section .content-title button:hover {
+  color: #fe86d4;
+  background-color: white;
 }/*# sourceMappingURL=style.css.map */
