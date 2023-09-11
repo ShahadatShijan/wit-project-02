@@ -96,6 +96,7 @@ body {
   font-family: "Josefin Sans", sans-serif;
   font-weight: bold;
   font-size: 3rem;
+  line-height: 1.4;
   padding: 30px;
 }
 .main-container .banner .hero-section .content-section .content-title p {
@@ -120,4 +121,53 @@ body {
 .main-container .banner .hero-section .content-section .content-title button:hover {
   color: #fe86d4;
   background-color: white;
+}
+.main-container .service-section {
+  margin-top: 4rem;
+  text-align: center;
+}
+.main-container .service-section .section-details h2 {
+  font-family: "Roboto Slab", serif;
+  font-size: 28px;
+  line-height: 40px;
+  letter-spacing: 0.84px;
+  font-weight: 700;
+  color: #7b6cd5;
+  text-align: center;
+}
+.main-container .service-section .section-details p {
+  font-size: 15px;
+  line-height: 40px;
+  font-weight: 400;
+  letter-spacing: 0.45px;
+  color: #666;
+  text-align: center;
+}
+.main-container .service-section .service-details {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 3rem 6rem;
+}
+.main-container .service-section .service-details .service-col {
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.main-container .service-section .service-details .service-col img {
+  text-align: center;
+}
+.main-container .service-section .service-details .service-col a {
+  text-decoration: none;
+  color: #555;
+  cursor: pointer;
+}
+.main-container .service-section .service-details .service-col p {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: 25px;
+  font-weight: 400;
+  letter-spacing: 0.4px;
 }/*# sourceMappingURL=style.css.map */
