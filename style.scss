@@ -298,4 +298,98 @@ body {
 
         }
     }
+
+    // yoga place
+    .yoga-place-section {
+        padding: 60px 15px;
+        background-color: #fff;
+        text-align: center;
+
+        .section-details {
+            margin: 0 0 55px;
+
+            h2 {
+                font-family: 'Roboto Slab', serif;
+                font-size: 28px;
+                line-height: 40px;
+                letter-spacing: 0.84px;
+                font-weight: 700;
+                color: #7b6cd5;
+                text-align: center;
+            }
+
+            p {
+                font-size: 15px;
+                line-height: 40px;
+                font-weight: 400;
+                letter-spacing: 0.45px;
+                color: #666;
+                text-align: center;
+            }
+        }
+
+        .inside-container {
+            max-width: 940px;
+            width: 100%;
+            height: auto;
+            margin: 0 auto;
+            padding: 0 15px;
+
+            .row {
+                display: flex;
+                flex-wrap: wrap;
+                margin-right: -15px;
+                margin-left: -15px;
+
+                .col-lg-3 {
+                    flex: 0 0 25%;
+                    max-width: 25%;
+                    position: relative;
+                    width: 100%;
+                    padding-right: 15px;
+                    padding-left: 15px;
+
+                    .yogaPlace-img {
+                        width: 145px;
+                        height: 145px;
+                        background-color: #fff;
+                        border-radius: 50%;
+                        margin: 0 auto 18px;
+                        overflow: hidden;
+
+                        img {
+                            max-width: 145px;
+                            border-radius: 50%;
+                            border-style: none;
+                        }
+                    }
+
+                    a {
+                        text-decoration: none;
+                        color: #555;
+                        cursor: pointer;
+
+                        h3 {
+                            font-family: 'Josefin Sans', sans-serif;
+                            font-size: 22px;
+                            line-height: 40px;
+                            letter-spacing: 0.88px;
+                            font-weight: 600;
+                            color: #434343;
+                        }
+                    }
+
+                    p {
+                        font-family: inherit;
+                        font-size: 15px;
+                        line-height: 25px;
+                        letter-spacing: 0.45px;
+                        font-weight: 400;
+                        color: #666;
+                    }
+                }
+            }
+        }
+    }
+
 }
