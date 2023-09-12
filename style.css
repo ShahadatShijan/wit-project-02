@@ -467,4 +467,35 @@ body {
   color: #222;
   text-decoration: none;
   cursor: pointer;
+}
+.main-container .footer {
+  padding: 50px 15px;
+  background-color: #7b6cd5;
+  color: #fff;
+  font-size: 14px;
+}
+.main-container .footer .inside-container {
+  display: flex;
+  text-align: center;
+}
+.main-container .footer .inside-container .col-md-6 {
+  flex: 50%;
+  justify-content: center;
+  font-size: 1rem;
+}
+.main-container .footer .inside-container .copyright p {
+  width: 100%;
+  text-align: center;
+}
+.main-container .footer .inside-container .copyright p a {
+  text-decoration: none;
+  color: #fff;
+}
+.main-container .footer .inside-container .copyright p a:hover {
+  color: #fe86d4;
+}
+.main-container .footer .inside-container .socialMedia a {
+  color: #fff;
+  padding: 10px;
+  margin: 0 5px;
 }/*# sourceMappingURL=style.css.map */

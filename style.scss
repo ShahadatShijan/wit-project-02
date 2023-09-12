@@ -497,7 +497,7 @@ body {
         width: 100%;
         height: auto;
         margin: 2rem 0;
-        
+
 
         .sections-detail {
             margin: 0 0 55px;
@@ -527,7 +527,8 @@ body {
             width: 100%;
             padding-right: 15px;
             padding-left: 15px;
-            .join-us-btn{
+
+            .join-us-btn {
                 font-family: 'Josefin Sans', sans-serif;
                 font-size: 20px;
                 line-height: 25px;
@@ -540,16 +541,18 @@ body {
                 border-radius: 3px;
                 padding: 21px 52px 19px 53px;
                 text-decoration: none;
-                
+
                 cursor: pointer;
             }
-            .join-us-call{
+
+            .join-us-call {
                 font-family: inherit;
                 font-size: 16px;
                 line-height: 40px;
                 letter-spacing: 0.64px;
                 margin-top: 22px;
-                a{
+
+                a {
                     font-family: inherit;
                     font-size: 18px;
                     line-height: inherit;
@@ -563,5 +566,51 @@ body {
         }
     }
 
+    // footer section 
+    .footer {
+        padding: 50px 15px;
+        background-color: #7b6cd5;
+        color: #fff;
+        font-size: 14px;
 
+        .inside-container {
+            display: flex;
+            text-align: center;
+
+            .col-md-6 {
+                flex: 50%;
+                justify-content: center;
+                font-size: 1rem;
+            }
+
+            .copyright {
+
+
+                p {
+
+                    width: 100%;
+                    text-align: center;
+
+                    a {
+                        text-decoration: none;
+                        color: #fff;
+                    }
+
+                    & a:hover {
+                        color: #fe86d4
+                    }
+                }
+            }
+
+            .socialMedia {
+
+                a {
+                    color: #fff;
+                    padding: 10px;
+                    margin: 0 5px;
+                }
+            }
+        }
+
+    }
 }
