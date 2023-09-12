@@ -170,4 +170,73 @@ body {
   line-height: 25px;
   font-weight: 400;
   letter-spacing: 0.4px;
+}
+.main-container .best-class-club .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.main-container .best-class-club .row .best-class-club-desc {
+  background-color: #f5f5f5;
+  padding: 60px 15px;
+  flex: 0 0 50%;
+  max-width: 50%;
+  position: relative;
+  width: 100%;
+}
+.main-container .best-class-club .row .best-class-club-desc .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.main-container .best-class-club .row .best-class-club-desc .row .col-lg-4 {
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.main-container .best-class-club .row .best-class-club-desc .row .detail-col-club {
+  padding-bottom: 10px;
+  flex: 0 0 66.666667%;
+  max-width: 66.666667%;
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.main-container .best-class-club .row .best-class-club-desc .row .detail-col-club h2 {
+  font-family: "Roboto Slab", serif;
+  font-size: 28px;
+  line-height: 40px;
+  color: #7b6cd5;
+  font-weight: 600;
+  text-align: left;
+}
+.main-container .best-class-club .row .best-class-club-desc .row .detail-col-club ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0 13px;
+}
+.main-container .best-class-club .row .best-class-club-desc .row .detail-col-club ul li {
+  padding-left: 1.3em;
+  margin-bottom: 10px;
+}
+.main-container .best-class-club .row .best-class-club-desc .row .detail-col-club ul li::before {
+  content: "\f0e7";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  display: inline-block;
+  margin-left: -1.3em;
+  width: 1.3em;
+  font-size: 12px;
+  line-height: 40px;
+  color: #7b6cd5;
+}
+.main-container .best-class-club .row .best-class-club-img {
+  background-image: url("img/the-best-class-yoga.jpg");
+  background-size: cover;
+  background-position: center right;
+  background-repeat: no-repeat;
+  flex: 0 0 50%;
+  max-width: 50%;
 }/*# sourceMappingURL=style.css.map */

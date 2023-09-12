@@ -212,6 +212,89 @@ body {
                     letter-spacing: 0.40px;
                 }
             }
+        }
+    }
+
+    // Class Yoga Center  
+    .best-class-club {
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+
+            .best-class-club-desc {
+                background-color: #f5f5f5;
+                padding: 60px 15px;
+                flex: 0 0 50%;
+                max-width: 50%;
+                position: relative;
+                width: 100%;
+
+                .row {
+                    display: flex;
+                    flex-wrap: wrap;
+
+                    .col-lg-4 {
+                        flex: 0 0 33.333333%;
+                        max-width: 33.333333%;
+                        position: relative;
+                        width: 100%;
+                        padding-right: 15px;
+                        padding-left: 15px;
+                    }
+
+                    .detail-col-club {
+                        padding-bottom: 10px;
+                        flex: 0 0 66.666667%;
+                        max-width: 66.666667%;
+                        position: relative;
+                        width: 100%;
+                        padding-right: 15px;
+                        padding-left: 15px;
+
+                        h2 {
+                            font-family: 'Roboto Slab', serif;
+                            font-size: 28px;
+                            line-height: 40px;
+                            color: #7b6cd5;
+                            font-weight: 600;
+                            text-align: left;
+                        }
+
+                        ul {
+                            list-style: none;
+                            padding: 0;
+                            margin: 20px 0 13px;
+
+                            li {
+                                padding-left: 1.3em;
+                                margin-bottom: 10px;
+                            }
+
+                            & li::before {
+                                content: "\f0e7";
+                                font-family: "Font Awesome 5 Free";
+                                font-weight: 900;
+                                display: inline-block;
+                                margin-left: -1.3em;
+                                width: 1.3em;
+                                font-size: 12px;
+                                line-height: 40px;
+                                color: #7b6cd5;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .best-class-club-img {
+                background-image: url("img/the-best-class-yoga.jpg");
+                background-size: cover;
+                background-position: center right;
+                background-repeat: no-repeat;
+                flex: 0 0 50%;
+                max-width: 50%;
+            }
 
         }
     }
