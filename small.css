@@ -1,0 +1,17 @@
+
+.main-container .banner .banner-container .nav-bar .row {
+    flex-direction: column;  
+    align-items: center;
+    text-align: center;
+}
+.main-container .banner .banner-container .nav-bar .row .logo {
+   order: 1;
+}
+.main-container .banner .banner-container .nav-bar .row .top-bar-left{
+    order: 2;
+}
+.main-container .banner .banner-container .nav-bar .row .top-bar-right{
+    order: 3;
+    text-align: center;
+}
+
